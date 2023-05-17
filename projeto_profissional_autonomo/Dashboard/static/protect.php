@@ -5,7 +5,9 @@ if(!isset($_SESSION)) {
 }
 
 if(!isset($_SESSION['id_usuario'])) {
-    die("Você não pode acessar está pagina porque não está logado. <p> <a href=\"index.php\">Entrar</a> </p>");
+    header("Location: erro.php");
+    //die("Você não pode acessar está pagina porque não está logado. <p> <a href=\"index.php\">Entrar</a> </p>");
 }
 
 ?>
+

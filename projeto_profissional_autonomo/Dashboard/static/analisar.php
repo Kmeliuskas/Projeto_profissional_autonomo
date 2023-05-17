@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-Br">
+
+<?php include 'protect.php' ?>
 
 <head>
     <?php include 'header.php'; ?>

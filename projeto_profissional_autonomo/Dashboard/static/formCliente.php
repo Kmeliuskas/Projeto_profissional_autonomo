@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+<?php include 'protect.php'; ?>
+
 <head>
     <?php
         include 'header.php';
