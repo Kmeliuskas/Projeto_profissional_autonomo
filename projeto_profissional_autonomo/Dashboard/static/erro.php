@@ -8,12 +8,18 @@
     <!-- CSS Bootstrap 5 -->
     <link rel="stylesheet" href="css/app.css">
     
+    
     <style>
+        body {
+            overflow-y: hidden;
+           
+        }
+
         main {
             display: block;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            max-height: 100vh;
             width: 10px;
             overflow: hidden;
         }
@@ -27,6 +33,9 @@
             height: 100%;
             overflow: hidden;
         }
+
+        
+
     </style>
 </head>
 <body>

@@ -12,7 +12,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 
 <!-- Fav icon -->
-<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+<link rel="shortcut icon" href="img/icons/favicon.png" />
+
 
 <link rel="canonical" href="https://ifsc.edu.com.br" />
 
