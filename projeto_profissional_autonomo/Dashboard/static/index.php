@@ -84,9 +84,9 @@
                     </div>
 
                     <div class="esquecer">
-                        <label for=""><input type="checkbox">Lembre me <a href="esqueci_senha.php">Esqueceu a senha?</a></label>
-                        
+                        <label for="marca_box"><input type="checkbox" id="marca_box">Lembre-me</label>
                     </div>
+
                     <button type="submit">Login</button>
 
                     <!-- Campos não encontrados no banco de dados-->
@@ -97,6 +97,7 @@
                     ?>
 
                     <div class="registrar">
+                    <p>Esqueceu a senha? <a href="esqueci_senha.php">Clique aqui!</a></p>
                         <p>Não tem uma Conta? <a href="registro.php">Registe-se</a></p>
                     </div>
                  </form>
