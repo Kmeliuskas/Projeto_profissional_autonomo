@@ -13,7 +13,7 @@ if (isset($_POST['email']) && isset($_POST['senha']) && isset($_POST['nome'])) {
     $nome  = $conexao->real_escape_string($_POST['nome']);
 
     // Criando uma Query de inserção
-    $sql_code = "INSERT INTO usuarios (email, senha, nome, imagem) VALUES ('$email', '$senha', '$nome',)";
+    $sql_code = "INSERT INTO usuarios (email, senha, nome) VALUES ('$email', '$senha', '$nome')";
 
     // Executando a Query de inserção
     $sql_query = $conexao->query($sql_code) or die("Falha na execução do código sql" . $conexao->error);

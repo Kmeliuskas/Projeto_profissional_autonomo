@@ -4,8 +4,6 @@
 	include 'protect.php';
 ?>
 
-
-
 <head>
 	<?php
         include 'header.php';
